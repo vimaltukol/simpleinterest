@@ -5,10 +5,6 @@ def si(principle,rate,time):
 if __name__== "__main__":
     print("++SI++")
     try:
-        print("Length: ",len(sys.argv))
-        print("0: ",sys.argv[0])
-        print("1: ",sys.argv[1])
-        print("2: ",sys.argv[2])
         if len(sys.argv) == 4:
             p=float(sys.argv[1])
             r=float(sys.argv[2])
