@@ -1,8 +1,8 @@
 import sys
 
-def calculate_simple_interest(principal, rate, time):
+def calculate_simple_interest(Principal, Rate, Time):
     """Calculate Simple Interest given principal, rate, and time."""
-    return (principal * rate * time) / 100
+    return (Principal * Rate * Time) / 100
 
 if __name__ == "__main__":
     print("Simple Interest Calculator:")
